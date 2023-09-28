@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link href="../css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <a href="../index.html">Main Page</a> |
+  <h2><b>Rocket League QUIZ</b></h2>
+  <form>
+    <h4><u>Personal Information</u></h4>
+    Username: <input type="text" name="username" required="required"><br>
+    Password: <input type="password" name="pwd" required="required"><br>
+    Re-Type Password: <input type="password" name="pwd2" required="required"><br>
+    Email: <input type="text" name="email" required="required"><br>
+    Date: <input type='date' name='customDate' required="required">
+    
+    <br>
+    <h4><u>QUIZ</u></h4>
+    <table>
+      <tr>
+        <td>
+          Q1 What year was Rocket League released?<br>
+          <input type="text" name="rlsyear" required="required"><br>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Q2 What is the name of Rocket League's predecessor?<br>
+          <select name="orgname">
+            <option value="HVARB">Hyper Velocity Aerial Rocket Battlers</option>
+            <option value="SARW">Sonic Acrobatic Rocket Wars</option>
+            <option value="RPABR">Rocket-Powered Aerial Battle Racers</option>
+            <option value="SARPBC">Supersonic Acrobatic Rocket-Powered Battle-Cars</option>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+           Q3 Rocket League is available to play on Nintendo?<br>
+            <input type="checkbox" name="True" value="t">True
+            <input type="checkbox" name="False" value="f">False
+        </td>          
+      </tr>
+      <tr>
+        <td>
+          Q4 Which of these cars were part of the original release of Rocket League<br>
+            <input type="radio" name="cartype" value="Octane">Octane<br>
+            <input type="radio" name="cartype" value="Dominus">Dominus<br>
+            <input type="radio" name="cartype" value="Batmobile">Batmobile<br>
+            <input type="radio" name="cartype" value="Merc">Merc<br>
+            <input type="radio" name="cartype" value="Takumi">Takumi
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+            Q5 Is Rocket League a great game?<br>
+            <input type="checkbox" name="Yes" value="Yes">Yes<br>
+            <input type="checkbox" name="No (but really yes)" value="nbry">No <i>(but really yes!)</i>
+        </td>          
+      </tr>
+    </table>
+    <input type="submit" value="Submit">   <input type="reset">
+  </form>
+</body>
+</html>
